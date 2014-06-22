@@ -1,0 +1,168 @@
+/*******************************
+            Global
+*******************************/
+
+html,
+body {
+  font-size: 15px;
+  height: 100%;
+}
+
+body {
+  font-family: 微軟正黑體, "Harlow Solid Italic", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  background: url(images/bg.png) 50% 0 no-repeat fixed;
+  margin: 0px;
+  padding: 0px;
+  color: #555555;
+  text-rendering: optimizeLegibility;
+  min-width: 320px;
+}
+
+@font-face {
+    font-family: "font_elegant";
+    src: url(font/Embassy.ttf);
+}
+@font-face {
+    font-family: "HARLOWSI";
+    src: url(font/HARLOWSI.ttf);
+}
+@font-face {
+    font-family: "font_chinese";
+    src: url(font/DFPOP1W7-B5.ttf);
+}
+
+/*******************************
+          UI Overrides
+*******************************/
+#head{
+	height: 1200px;
+	margin: 0 auto;
+	padding:0 0 0 0;
+}
+#head .pie{
+  top: 10%;
+  left: 450px;
+	position: absolute;
+	z-index: 200;
+}
+#head .title1{
+	font-family: Harlow Solid Italic;
+  font-size:150px;
+  top: 18%;
+  left: 430px;
+  width: 500px;
+	position: absolute;
+	z-index: 300;
+}
+
+#head .title2{
+  font-family: Harlow Solid Italic;
+  font-size:30px;
+  top: 32%;
+  left: 520px;
+  width: 400px;
+  position: absolute;
+  z-index: 300;
+}
+
+.ui.secondary.menu{
+  margin-left: 60px;
+  margin-top: 32px;
+  width:90%;
+  font-weight:bolder;
+}
+
+.item.reg{
+  margin-left: 660px;
+}
+
+.ui.header {
+  font-family: Harlow Solid Italic, 微軟正黑體;
+  font-size:35px;
+}
+
+#ej{
+  font-family: Harlow Solid Italic, 微軟正黑體;
+  font-size:28px;
+  font-weight:bolder;
+}
+
+#recipe{
+  position: relative;
+  top: 1200px;
+}
+
+.ui.large.modal.search.content{
+  background: url(images/bgr.png) 50% 100%;
+}
+
+#discuss{
+  position: relative;
+  top: 1200px;
+}
+
+
+#about{
+  position: absolute;
+  top: 2800px;
+  width: 100%;
+}
+
+.ui.avatar.image{
+	margin: 0px;
+	padding: 0px;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	max-height: 15px;
+	max-width: 15px;
+}
+
+.ui.rounded.image{
+  margin: 10px;
+}
+
+.recipe{
+  padding: 10px;
+}
+
+.ui.modal{
+  top: 45%;
+}
+.ui.button {
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.ui.blue.segment{
+	position: absolute;
+	top: 3%;
+	width: 270px;
+	margin-left: 5px;
+	right: 0px;
+}
+
+.ui.checkbox{
+	margin: 5px;
+}
+
+.ui.items.content{
+  height: 50px;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #00BAFF;
+}
+
+p a {
+  font-weight: bold;
+}

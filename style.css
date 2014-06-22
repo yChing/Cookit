@@ -1,0 +1,207 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+	min-width: 980px;
+	padding: 0;
+}
+
+p{
+	margin: 0 0 20px 0;	
+}
+
+p, ul{
+	font-family:"Proxima Nova Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-size-adjust:0.488;
+	font-weight:200;
+	font-style:normal;
+}
+
+img{
+	border: 0;
+}
+
+h1, #pixels{
+	font-family:"Museo 900", Verdana, serif;
+	font-size-adjust:0.40;
+	font-weight:700;
+	font-style:normal;
+}
+
+h2{
+	font-family:"Beau Sans Pro Book", Verdana, sans-serif;
+	font-size-adjust:0.531;
+	font-weight:500;
+	font-style:normal;
+}
+
+#header h1, #pixels{
+	color: #48941A;
+}
+
+.float-left{
+	float: left;	
+	margin: 0 0 0 20px;
+}
+
+.float-right{
+	float: right;
+	margin: 0 20px 0 0;
+}
+
+.center{
+	font-size: 2.5em;
+	padding: 80px 0 0 0;
+	text-align: center;
+}
+
+#nav{
+	list-style: none;
+	position: fixed;
+	right: 20px;
+	z-index: 999;
+}
+
+#nav li{
+	margin: 0 0 15px 0;	
+}
+
+#header, #intro, #second{
+	width: 100%;
+}
+
+#intro{
+	background: url(images/bg.png) 50% 0 no-repeat fixed;
+	height: 1200px;
+	margin: 0 auto;
+	padding:0 0 0 0;
+}
+#intro .pie{
+	background: url(images/pie.png) 50% 15% no-repeat fixed;
+	height: 500px;
+	width:950px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	z-index: 200;
+}
+#intro .in2{
+	background: url(images/intro2.png) 52% 32% no-repeat fixed;
+	height: 500px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 950px;
+	z-index: 300;
+}
+#intro .ab{
+	background: url(images/about.png) 50% 100% no-repeat fixed;
+	height: 1000px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 1000px;
+	z-index: 400;
+}
+
+#second{
+	background: url(images/bg2.png) 50% 10% no-repeat fixed;
+	color: white;
+	height: 1250px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+}
+#second .p2d1{
+	background: url(images/p2d-1.png) 52% 5% no-repeat fixed;
+	height: 250px;
+	width:950px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	z-index: 200;
+}
+#second .p2d2{
+	background: url(images/p2d-2.png) 48% 63% no-repeat fixed;
+	height: 800px;
+	width:1300px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	z-index: 300;
+}
+#second .p2d3{
+	background: url(images/p2d-3.png) 100% 100% no-repeat fixed;
+	height: 800px;
+	width:1400px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	z-index: 400;
+}
+#third{
+	background: url(images/p3.png) 50% 0 no-repeat fixed;
+	color: white;
+	height: 1250px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+}
+
+#fourth{
+	background: url(images/rbg.png) 50% 0 no-repeat fixed;
+	color: white;
+	height: 1250px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+}
+#fourth .in1{
+	background: url(images/intro1.png) 50% 0 no-repeat fixed;
+	height: 1300px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 1000px;
+	z-index: 400;
+}
+#fourth .in{
+	background: url(images/food-3.png) 0 5% no-repeat fixed;
+	height: 1300px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 1000px;
+	z-index: 400;
+}
+#fourth .in-d{
+	background: url(images/indus.png) 50% 120% no-repeat fixed;
+	height: 1300px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 1000px;
+	z-index: 400;
+}
+
+
+
+
+
+.slide {
+	width: 100%;
+}
+
+#nav li a {
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	background-color: white;
+	border: solid 2px black;
+}
+
+#nav li a.current {
+	background-color: rgb(0,195,193);
+}
